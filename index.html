@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./public/output.css" />
+    <!-- Do the font linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap"
+        rel="stylesheet" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="grid min-h-screen place-content-center bg-eggshell font-Outfit text-weng-brown">
+    <main class="lg:max-w-[46.25rem] bg-white lg:mx-[5rem] lg:rounded-2xl">
+        <h1 class="sr-only">Recipe Page</h1>
+        <figure class="lg:p-10">
+            <img src="./assets/images/omelette.jpeg" class="lg:rounded-xl" alt="omelette">
+
+            <figcaption class="sr-only" >
+                Omelette on a plate
+            </figcaption>
+        </figure>
+        <section class="grid gap-16 py-11 px-[1.80rem] bg-nutmeg">
+            <header class="grid gap-4">
+                <h2 class="text-3xl text-charcoal font-youngSerif lg:text-5xl">
+                Simple Omelette Recipe
+                </h2>
+                <p class="text-charcoal">
+                    An easy and qquick dish, perfect for any meal. the classic omelette combines beaten eggs cooked to perfection,
+                    optionally foillled with your choice of cheese, vegetables, or meat.
+                </p>
+            </header>
+            <article class="grid gap-4 p-6 rounded-lg bg-rose-white">
+                <h3 class="text-xl font-bold text-raspbery font-Outfit">
+                    Preparation Time
+                </h3>
+                <ul class="flex flex-col list-disc gap-y-2 ml-7 marker:text-raspbery">
+                    <li><span class="pl-3 font-bold">Total:</span> Approximately 10 minutes</li>
+                    <li><span class="pl-3 font-bold">Preparation:</span>5 minutes</li>
+                    <li><span class="pl-3 font-bold">Cooking:</span>5 minutes</li>
+                </ul>
+            </article>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
