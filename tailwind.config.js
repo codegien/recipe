@@ -1,21 +1,21 @@
-/**@type {import('tailwindcss'),config} */
+/**@type {import('tailwindcss').config} */
 
 module.exports = {
 	content: ["./src/**/*.{html, js}"],
 	theme: {
-		extends: {
+		extend: {
 			colors: {
 				nutmeg: "hsl(14 45% 36%)",
 				raspbery: "hsl(332 51% 32%)",
-				"rose-white": "hsl(330 100% 95%)",
+				"rose-white": "hsl(330 100% 98%)",
 				eggshell: "hsl(30 54% 90%)",
 				grey: "hsl(30 18% 87%)",
-				"weng-brown": "hsl(30 10% 34%)",
-				charcoal: "hsl(23 5% 18%)",
+				"wenge-brown": "hsl(30 10% 34%)",
+				charcoal: "hsl(24 5% 18%)",
 			},
 			fontFamily: {
 				youngSerif: "Young Serif, serif",
-				Outfit: "Outfit, sans-serif",
+				Outfit: "Outfir, sans-serif",
 			},
 		},
 		plugin: [],

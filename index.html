@@ -3,51 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Page</title>
+    <title>Recipe App</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./public/output.css"/>
+<!-- Do the font linking -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap" rel="stylesheet"/>
 
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="./public/output.css" />
-    <!-- Do the font linking -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap"
-        rel="stylesheet" />
-    
-    <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body class="grid min-h-screen place-content-center bg-eggshell font-Outfit text-weng-brown">
-    <main class="lg:max-w-[46.25rem] bg-white lg:mx-[5rem] lg:rounded-2xl">
-        <h1 class="sr-only">Recipe Page</h1>
+<body class="grid min-h-screen place-content-center bg-eggshell font-Outfit text-wenge-brown">
+    <main class="lg:max-w-[46.25rem] bg-white lg:my-[5rem] lg:rounded-2xl">
+        <h1 class="sr-only"> Recipe Page</h1>
         <figure class="lg:p-10">
-            <img src="./assets/images/omelette.jpeg" class="lg:rounded-xl" alt="omelette">
-
-            <figcaption class="sr-only" >
+            <img src="./assets/images/omelette.jpeg" class="lg:rounded-xl" alt="omelette"/>
+            <figcaption class="sr-only">
                 Omelette on a plate
             </figcaption>
         </figure>
-        <section class="grid gap-16 py-11 px-[1.80rem] bg-nutmeg">
+        <section class="grid gap-16 py-11 px-[1.875rem]">
             <header class="grid gap-4">
                 <h2 class="text-3xl text-charcoal font-youngSerif lg:text-5xl">
                 Simple Omelette Recipe
                 </h2>
-                <p class="text-charcoal">
-                    An easy and qquick dish, perfect for any meal. the classic omelette combines beaten eggs cooked to perfection,
-                    optionally foillled with your choice of cheese, vegetables, or meat.
-                </p>
+            <p>
+                An easy and qquick dish, perfect for any meal. the classic omelette combines beaten eggs cooked to perfection, optionally foillled with your choice of cheese, vegetables, or meat.
+            </p>
+           
             </header>
             <article class="grid gap-4 p-6 rounded-lg bg-rose-white">
                 <h3 class="text-xl font-bold text-raspbery font-Outfit">
-                    Preparation Time
+                    Preparation  Time
                 </h3>
-                <ul class="flex flex-col list-disc gap-y-2 ml-7 marker:text-raspbery">
-                    <li><span class="pl-3 font-bold">Total:</span> Approximately 10 minutes</li>
-                    <li><span class="pl-3 font-bold">Preparation:</span>5 minutes</li>
-                    <li><span class="pl-3 font-bold">Cooking:</span>5 minutes</li>
+                <ul class="flex flex-col list-disc gap-y-2 ml -7 marker:text-raspbery">
+                    <li>
+                        <span class="pl-3 font-bold">Total:</span> Approximately 10 minutes
+                    </li>
+                    <li>
+                        <span class="pl-3 font-bold">Preparation:</span> 5 minutes
+                    </li>
+                    <li>
+                        <span class="pl-3 font-bold">Cooking:</span> 5 minutes
+                    </li>
                 </ul>
             </article>
+            <!-- Ingredient section -->
+            <article class="grid gap-4 border-b border-grey">
+                <h3 class="text-3xl font-bold font-youngSerif text-nutmeg">Ingredient</h3>
+                <ul class="flex flex-col mb-10 ml-6 list-disc marker:text-raspbery gap-y-2">
+                    <li class="pl-6">2-3 large egggs</li>
+                    <li class="pl-6">Salt, to taste</li>
+                    <li class="pl-6">Pepper, to taste</li>
+                    <li class="pl-6">1 tablespoon of butter or oil</li>
+                    <li class="pl-6">Optional fillings: cheese, diced vegetables, cooked meat, herbs</li>
 
+                </ul>
+            </article>
+            <!-- Instruction -->
+            <article class="grid gap-4 border-b border-grey">
+                <h3 class="text-3xl font-bold font-youngSerif text-nutmeg">Instruction</h3>
+                <ol class="flex flex-col mb-10 ml-4 list-decimal marker:text-raspbery marker:font-bold gap-y-2">
+                    <li class="pl-4"> <span class="font-bold">Beat the eggs:</span>
+                    the eggs win or sat an peper until are well mixed. You can add a tablespoon of water or milk for a fluffier texture
+                    </li>
+                    <li class="pl-4"> <span class="font-bold">Heat the pan:</span>
+                    Place a non-stick trying pan over medium heat and add butter or oil
+                    </li>
+                    <li class="pl-4"> <span class="font-bold">Cook omelette:</span>
+                    Place a non-stick trying pan over medium heat and add butter or oil
+                    </li>
+                    <li class="pl-4"> <span class="font-bold">Add fillings:</span>
+                    Place a non-stick trying pan over medium heat and add butter or oil
+                    </li>
+                    <li class="pl-4"> <span class="font-bold">fold and Serve:</span>
+                    Place a non-stick trying pan over medium heat and add butter or oil
+                    </li>
+                   
+                    <li class="pl-4"> <span class="font-bold">Enjoy:</span>
+                    Place a non-stick trying pan over medium heat and add butter or oil
+                    </li>
+                </ol>
+            </article>
+            <!-- Nutrition section -->
+            <article class="grid gap-4">
+                <h3 class="text-3xl font-bold font-youngSerif text-nutmeg">Nutrition</h3>
+                <p>The table below shows nutritional values fer serving without the additional fillings.</p>
+                <table>
+                    <tr class="text-center border-b border-grey lg:text-left">
+                        <td>Calories</td>
+                        <td>277Cal</td>
+                    </tr>
+                    <tr class="text-center border-b border-grey lg:text-left">
+                        <td>Cabs</td>
+                        <td>0g</td>
+                    </tr>
+                    <tr class="text-center border-b border-grey lg:text-left">
+                        <td class="p-2">Protein</td>
+                        <td class="font-old text-nutmeg">20g</td>
+                    </tr>
+                    <tr class="text-center border-b border-grey lg:text-left">
+                        <td>Fat</td>
+                        <td>22g</td>
+                    </tr>
+
+                </table>
+            </article>
         </section>
-
     </main>
     
 </body>
